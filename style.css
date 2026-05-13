@@ -1,0 +1,235 @@
+header {
+    background-color: rgb(27, 38, 27);
+    width: 100%;
+    height: 150px;
+    color: rgb(0, 0, 0);
+   /* Flexbox properties */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+#logo{
+    width: 10%;
+float: left
+}
+
+
+nav {
+    background-color: rgb(27, 38, 27); /* The red background color */
+    width: 100%;                          /* Fill the screen width */
+    height: 50px;                        /* How tall the bar is */
+    color: rgb(0, 0, 0);               /* The blackcolor */
+    
+}
+
+nav a {
+    color: white;              /* 1. Change text from blue to white */
+    text-decoration: none;     /* 2. Remove the underline */
+    margin-left: 20px;         /* 3. Push the links away from each other */
+    font-weight: bold;         /* 4. Make the text thicker */
+    line-height: 50px;         /* 5. Center text vertically */
+     float: right;
+
+     margin-right: 30px; 
+    padding-top: 0px;
+    text-align: center;
+
+}
+
+
+
+  /* box 1 of the menan page in Community & Logistics Hub */
+section {
+    background-color: rgb(229, 233, 220);
+     
+    width: 50%;
+    height: 1000px;
+    color: rgb(0, 0, 0);
+    float: left;
+    clear: both;
+}
+
+.hiking-content h3 {
+    font-size: 28px;      /* Made it a bit bigger */
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: rgb(27, 38, 27);         /* Changed from black to white */
+    text-align: center;
+}
+
+.hiking-content p {
+    max-width: 80%;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: rgb(27, 38, 27);         /* Changed from black to white */
+    text-align: center;
+    font-size: 18px;
+}
+
+/* This part moves your images to the middle */
+.hiking-content img {
+    display: block;
+    margin: 30px auto;    /* Increased space to 30px */
+    width: 60%;
+    height: auto;
+    border: 4px solid rgb(27, 38, 27); /* Thicker white border looks 'prettier' */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3); /*shadow */
+}
+
+ /* box 2 of the menan page in Community & Logistics Hub */
+aside {
+    background-color: rgb(79, 109, 68);
+    width: 50%; 
+    height: 1000px;
+    float: left;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+
+.item-row {
+    display: flex;          /* This puts the image and text in a row */
+    align-items: center;    /* This centers the text vertically next to the image */
+    margin-bottom: 100px;    /* This creates the space between the three boxes */
+    padding: 49px;          /* This creates space inside the box so things aren't cramped */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* The border box */
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+
+dl img {
+    width: 150px;
+    height: auto;
+    border: 2px solid white; /* The border box */
+    margin-right: 15px;
+}
+
+/* magrin the text of the 2 box in the menan page in Community & Logistics Hub */
+dt, dd {
+    margin: 0;
+}
+
+
+/*Nature Enthusiasts bar in the both pags */
+
+.bar {
+    background-color: rgb(210, 215, 211); /* color */
+    width: 100%;
+    height: 250px; /* Increased height to fit the box comfortably */
+    display: flex;          /* Enables Flexbox */
+    justify-content: center; /* Centers box horizontally */
+    align-items: center;     /* Centers box vertically */
+    border: 2px solid black;
+    clear: both;
+}
+
+
+.slogan-box {
+    background-color: rgb(163, 177, 138); 
+    width: 40%;
+    padding: 20px;
+    border: 2px solid #555;
+    text-align: center;
+    color: white; 
+}
+
+
+footer {
+    background-color: rgb(27, 38, 27);
+    color: white;              
+    text-align: center;        /* Centers the text */
+    padding: 20px 0;           /* Adds space above and below the text */
+    width: 100%;
+    clear: both;               
+    font-family: inherit;      /* Ensures the font matches your headings */
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;           
+}
+
+                       /* peg 2*/
+#Box1 {
+    background-color: rgb(229, 233, 220);
+    border: 2px solid rgb(27, 38, 27);
+    width: 30.4%; 
+    height: 200px;
+    float: left;
+    padding: 20px;
+   
+}                      
+
+
+#Box2 {
+    background-color: rgb(79, 109, 68);
+    color: white;
+    border: 2px solid rgb(27, 38, 27);
+    width: 30.4%; 
+    height: 200px;
+    float: left;
+    padding: 20px;
+   
+    
+}
+
+#Box3 {
+    background-color: rgb(155, 172, 138);
+    color: white;
+    border: 2px solid rgb(27, 38, 27);
+    width: 30.4%; 
+    height: 200px;
+    float: left;
+    padding: 20px;
+   
+    
+}
+#Box4 {
+    background-color: rgb(155, 172, 138);
+    border: 5px solid rgb(27, 38, 27);
+    color: white;
+    width: 96.5%;
+    min-height: 350px; /* Use min-height so it can grow if needed */
+    padding: 20px;
+    
+    /* The Magic Sauce: Flexbox */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center;    /* Center horizontally */
+    text-align: center;     /* Centers text inside the elements */
+}
+
+/* subscription box and textArea box  */
+#textArea, #subscription {
+    margin: 1%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;   /*border-radius property It changes the outer border edge of the element to be rounded Border */
+    
+    padding: 5px;
+     
+}
+#form{
+      margin: 1%;
+       
+}
+
+/* Member's Opinion */
+#textAreaFlex {
+  
+    float: left;
+      
+}
+
+/* submit button*/
+#submitBtn{
+    margin: 1%;
+    width: 20%;                          /* Fill the screen width */
+    height: 20px;  
+   border-radius: 5px;  /*border-radius property It changes the outer border edge of the element to be rounded Border */
+     
+}
+
+
+
+      
+
